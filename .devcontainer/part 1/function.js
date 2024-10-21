@@ -77,6 +77,79 @@
 //     const firstString = string => string[0];
 
 //     console.log(firstString("sugandh"));
+
+//rest parameter in function
+
+// function myFun(...numbers) {
+//     sum = 0;
+//     for(let number of numbers){
+//         sum = sum + number;
+//     }
+//     return sum;
+// }
+
+//  const ans =myFun(2,3,4,45,6,7);
+//  console.log(ans);
+
+//parameter destructing 
+
+// const person ={
+//     name : "sugandh",
+//     gender : "male",
+//     age : 21
+
+// }
+
+// function details(obj) {
+//     console.log(obj.name);
+//     console.log(obj.age);
+    
+// }
+
+// details(person);
+
+//callback function 
+
+// function fun1() {
+//     console.log("my output is ....");
+    
+// }
+
+// function fun2(callback){
+//     console.log("second output is....");
+//     callback();
+// }
+
+// fun2(fun1);
+
+// function myName1(name) {
+//     console.log("the output is:");
+//     console.log(`my name is ${name}`);
+    
+// }
+// function myName2(callback){
+//     console.log("name is sugandh");
+//     callback("sugandh");
+// }
+
+// myName2(myName1);
+
+// function returning function 
+
+// function fun1() {
+//     console.log("the first function is");
+//     function fun2() {
+//         console.log("hello");
+//     }
+//     return fun2;
+    
+    
+// }
+// const ans = fun1();
+// console.log(ans);
+
+
+ 
             
 
           
