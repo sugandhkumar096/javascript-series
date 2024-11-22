@@ -13,3 +13,16 @@
 // array.forEach(function(array,index){
 //     console.log(`the number is ${array} and the index is ${index}`);
 //     });
+
+
+
+
+//reduce method
+
+const number = [2,3,4,5,3,9];
+const sum = number.reduce((accumulator,currentvalue)=>{
+    return accumulator+currentvalue;
+
+
+});
+console.log(sum);
