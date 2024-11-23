@@ -71,6 +71,60 @@
 //   });
 
 //   console.log(product);
+ 
+// find method
+
+// const myArray = ["aman","chandan","gaurav","anuj","xyz"];
+//   function stringlength(string){
+//     return string.length===3;
+// }
+
+
+// const ans = myArray.find(stringlength);
+
+// const ans = myArray.find((string)=>string.length === 3{
+// });
+
+// const user = [
+//     {userId : 1, userName: "aman"},
+//     {userId : 2, userName: "chandan"},
+//     {userId : 3, userName: "gaurav"},
+//     {userId : 4, userName: "deepak"},
+    
+// ]
+// const ans = user.find((user)=> user.userId===3
+// );
+// console.log(ans);
+
+// every function 
+
+
+// const number = [2,4,6,5,8,10];
+
+// function iseven(number){
+//     return number % 2 == 0;
+
+// }
+
+// const ans = number.every((iseven)=> number % 2===0
+// );
+
+// const cartItem = [
+//         {productId : 1,productname :"laptop", price: 1000},
+//         {productId : 2,productname :"mobile", price: 12000},
+//         {productId : 3,productname :"earphone", price: 500},
+//         {productId : 4,productname :"headphone", price: 1000},
+//         {productId : 5,productname :"invertor", price: 10000},
+//     ]
+
+
+// const ans = cartItem.every((item)=> item.price < 30000);
+// console.log(ans);
+
+
+
+
+
   
 
 
