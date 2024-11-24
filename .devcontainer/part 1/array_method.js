@@ -122,6 +122,26 @@
 // console.log(ans);
 
 
+// splice method
+// start , insert and delete
+
+//const myArray = ["item1","item2","item3","item4","item5"];
+//delete
+// myArray.splice(1,2);
+// console.log(myArray);
+
+//insert
+
+// myArray.splice(5,0,"item6","item7");
+// console.log(myArray);
+
+//insert and delete together
+
+// myArray.splice(2,3,"othestring");
+// console.log(myArray);
+
+
+
 
 
 
