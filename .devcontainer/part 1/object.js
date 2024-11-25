@@ -84,15 +84,26 @@
 
 // cloning object 
 
-const obj = {
-    key1 : "value 1",
-    key2 : "value2"
-}
+// const obj = {
+//     key1 : "value 1",
+//     key2 : "value2"
+// }
 
-const obj2 = Object.assign({},obj);
-obj.key3 = "value3";
-console.log(obj);
-console.log(obj2);
+// const obj2 = Object.assign({},obj);
+// obj.key3 = "value3";
+// console.log(obj);
+// console.log(obj2);
+
+// optional chaining
+
+// const user = {
+//     firstname : "sugandh",
+//     address : {houseno : "1324"}
+// }
+
+// console.log(user?.firstname);
+// console.log(user?.address?.houseno);
+
 
 
 
